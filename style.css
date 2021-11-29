@@ -21,3 +21,10 @@
     letter-spacing: 0.1em;
   }
 }
+
+@media (min-width: 426px) {
+  body {
+    max-width: 425px;
+    margin: o auto;
+  }
+}
