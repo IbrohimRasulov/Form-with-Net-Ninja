@@ -38,7 +38,15 @@
     margin-bottom: 10px;
     padding-left: 26px;
     cursor: pointer;
+    background: url(assets/checks.png) no-repeat;
+    line-height: 24px;
+    background-position: 0 -32px;
+  }
 
+  input:checked + label[for="male"],
+  input:checked + label[for="female"] {
+    background-position: 0 0;
+    color: #ce1010;
   }
 }
 
