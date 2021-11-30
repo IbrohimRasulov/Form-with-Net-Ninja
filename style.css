@@ -48,10 +48,17 @@
     background-position: 0 0;
     color: #ce1010;
   }
+
+  
 }
 
 @media (max-width:425px) {
   body {
     margin: 0;
+    background-color: #141414;
+  }
+
+  body div {
+    background-color: inherit;
   }
 }
