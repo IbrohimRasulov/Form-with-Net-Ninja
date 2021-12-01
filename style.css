@@ -75,7 +75,39 @@
   }
 
   /* Contact info styles */
+  fieldset {
+    margin: 20px 0;
+    padding: 2 0px;
+    border: 3px solid #444;
+  }
 
+  legend {
+    padding: 0 10px;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+  }
+
+  input[type="email"],
+  input[type="tel"] {
+    display: block;
+    margin: 15px 0;
+    padding: 10px 10px 10px 50px;
+    border: 0;
+    border-radius: 5px;
+    background: url(assets/inputs.png) no-repeat #222;
+    font-size: 16px;
+    color: white;
+  }
+
+  input[type="email"] {
+    background-position: 7px 8px;
+  }
+
+  input[type="tel"] {
+    background-position: 7px -58px;
+  }
+
+  /* Validation for contact info */
 
   /* Contact type styles */
 
