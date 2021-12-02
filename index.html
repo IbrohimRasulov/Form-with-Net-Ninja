@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div>
+    <header>
+      <img src="assets/logo.png" alt="logo">
+    </header>
+
+    <form>
+      <!--! Gender -->
+      <p>You are...</p>
+      <input type="radio" id="male" name="gender" required>
+      <label for="male">Male</label>
+      <br>
+      <input type="radio" id="female" name="gender">
+      <label for="female">Female</label>
+
+      <!--! Interests -->
+      <p>You are interested in...</p>
+      <input type="checkbox" id="web">
+      <label for="web">Web development</label><br>
+      <input type="checkbox" id="design">
+      <label for="design">Design</label><br>
+      <input type="checkbox" id="drawing">
+      <label for="drawing">Drawing</label><br>
+
+      <!--! Contact info -->
+      <fieldset>
+        <legend>Contact info</legend>
+        <input type="email" placeholder="Email" required>
+        <span class="tick"></span>
+        <input type="tel" placeholder="Phone number" required>
+        <span class="tick"></span>
+      </fieldset>
+
+      <!--! Contact type -->
+      <p>How would you like to be contacted?</p>
+      <select>
+        <option>By email</option>
+        <option>By phone</option>
+      </select>
+      <input type="submit" value="Become a Ninja">
+    </form>
+  </div>
+</body>
+</html>
