@@ -2,17 +2,17 @@
 
 # Submit form
 
-> This a sample submittion form style.
+> This is a sample submission form style.
 
 ![screenshot](./app_screenshot.png)
 
-> I build this project with [The Net Ninja](https://youtu.be/HiHHvTcHiEk).
+> I build this project with [The Net Ninja](https://youtu.be/HiHHvTcHiEk), and we changed default form styles making it more user friendly and interesting. Form page is fully responsive for all kind of devices.
 
 ## Built With
 
 - HTML5, CSS3
 - No frameworks
-- GitHib pages, Vs code, Live Server
+- GitHub pages, VS Code, Live Server
 
 ## Live Demo
 
