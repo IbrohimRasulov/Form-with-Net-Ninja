@@ -125,6 +125,23 @@
     background-color: #222;
     color: white;
     width: 240px;
+    background: url(assets/select.png) no-repeat 95% center;
+    background-position: right 0 -10px;
+  }
+
+  input[type="submit"] {
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    background-color: #ce1010;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    margin: 20px auto;
+    width: 100%;
+    cursor: pointer;
+
   }
 }
 
