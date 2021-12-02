@@ -34,7 +34,8 @@
     margin: 0;
   }
 
-  label[for="male"], label[for="female"] {
+  label[for="male"],
+  label[for="female"] {
     display: inline-block;
     margin-bottom: 10px;
     padding-left: 26px;
@@ -57,7 +58,9 @@
     margin: 0;
   }
 
-  label[for="web"], label[for="design"], label[for="drawing"] {
+  label[for="web"],
+  label[for="design"],
+  label[for="drawing"] {
     display: inline-block;
     margin-bottom: 10px;
     padding-left: 26px;
@@ -77,7 +80,7 @@
   /*! Contact info styles */
   fieldset {
     margin: 20px 0;
-    padding: 2 0px;
+    padding: 10px 15px;
     border: 3px solid #444;
   }
 
@@ -155,11 +158,10 @@
     cursor: pointer;
     border: 2px solid white;
     border-radius: 5px;
-    background-color: #222;
     color: white;
     width: 240px;
-    background: url(assets/select.png) no-repeat 95% center;
-    background-position: right 0 -10px;
+    background: url(assets/select.png) no-repeat 95% center #222;
+    outline: none;
   }
 
   input[type="submit"] {
@@ -177,7 +179,7 @@
   }
 }
 
-@media (max-width:425px) {
+@media (max-width: 425px) {
   body {
     margin: 0;
     background-color: #141414;
