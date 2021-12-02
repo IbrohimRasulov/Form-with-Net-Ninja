@@ -91,12 +91,15 @@
   input[type="tel"] {
     display: block;
     margin: 15px 0;
-    padding: 10px 10px 10px 50px;
-    border: 0;
+    padding: 10px 10px 10px 45px;
+    border: 2px solid #222;
     border-radius: 5px;
-    background: url(assets/inputs.png) no-repeat #222;
+    background: url(assets/inputs.png) no-repeat;
+    background-color: #222;
     font-size: 16px;
     color: white;
+    float: left;
+    clear: both;
   }
 
   input[type="email"] {
@@ -108,6 +111,36 @@
   }
 
   /*! Validation for contact info */
+  input[type="email"]:valid,
+  input[type="tel"]:valid {
+    border: 2px solid green;
+    color: white;
+    background-color: #222;
+  }
+
+  input[type="email"]:valid {
+    background-position: 7px -22px;
+  }
+
+  input[type="tel"]:valid {
+    background-position: 7px -97px;
+  }
+
+  input[type="email"]:focus,
+  input[type="tel"]:focus {
+    outline: 0;
+  }
+
+  input[type="email"]:valid + .tick,
+  input[type="tel"]:valid + .tick {
+    display: block;
+    background: url(assets/tick.png) center;
+    background-size: 100%;
+    margin: 20px;
+    width: 20px;
+    height: 20px;
+    float: left;
+  }
 
   /*! Contact type styles */
   select {
@@ -141,7 +174,6 @@
     margin: 20px auto;
     width: 100%;
     cursor: pointer;
-
   }
 }
 
