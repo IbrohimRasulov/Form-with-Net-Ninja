@@ -1,18 +1,18 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Submit form
 
-> One paragraph statement about the project.
+> This a sample submittion form style.
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+> I build this project with [The Net Ninja](https://youtu.be/HiHHvTcHiEk).
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML5, CSS3
+- No frameworks
+- GitHib pages, Vs code, Live Server
 
 ## Live Demo
 
