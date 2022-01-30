@@ -27,11 +27,11 @@ npx stylelint "**/*.{css,scss}"
 
 ## Authors
 
-👤 **Author1**
+👤 **Ibrohim Rasulov**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@IbrohimRasulov](https://github.com/IbrohimRasulov)
+- Twitter: [@IbrohimRasu1ov](https://twitter.com/IbrohimRasu1ov)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ibrohim-rasulov-a88352209/)
 
 ## 🤝 Contributing
 
