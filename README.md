@@ -2,12 +2,12 @@
 
 # Submit form
 
-> This is a sample submission form style.
-
-![screenshot](./app_screenshot.png)
-
 > I build this project with [The Net Ninja](https://youtu.be/HiHHvTcHiEk), and we changed default form styles making it more user friendly and interesting. Form page is fully responsive for all kind of devices.
 
+<p align="center">
+  ![screenshot](./app_screenshot.png)
+</p>
+  
 ## Built With
 
 - HTML5, CSS3
