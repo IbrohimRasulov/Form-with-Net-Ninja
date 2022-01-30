@@ -4,9 +4,8 @@
 
 > I build this project with [The Net Ninja](https://youtu.be/HiHHvTcHiEk), and we changed default form styles making it more user friendly and interesting. Form page is fully responsive for all kind of devices.
 
-<p align="center">
-  ![screenshot](./app_screenshot.png)
-</p>
+
+<img align="left" src="./app_screenshot.png">
   
 ## Built With
 
